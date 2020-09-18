@@ -1,0 +1,171 @@
+<!--
+    Name: Omar Diab
+    Pawprint: oedkmv
+    Date: 2019-11-8
+    Challenge 9: AJAX
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Multi-Column Layout</title>
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" type="text/css" href="oedkmvAJAX.css">
+        <script src="jquery-1.11.2.min.js"> </script>
+        <script>
+            
+            function header() {
+
+            var xmlHttp = new XMLHttpRequest();
+
+            xmlHttp.onload = function() {
+                if (xmlHttp.status == 200) {
+                    elemObj.innerHTML = xmlHttp.responseText;
+                  }
+            }
+            xmlHttp.open("GET", "http://ec2-18-219-205-255.us-east-2.compute.amazonaws.com/CS2830/classInfo.php?content=info", true);
+
+            xmlHttp.send();
+            }   
+            
+            function monday() {
+
+            var xmlHttp = new XMLHttpRequest();
+
+            xmlHttp.onload = function() {
+                if (xmlHttp.status == 200) {
+                    elemObj = document.getElementById('loader');
+                    elemObj.innerHTML = xmlHttp.responseText;
+                  }
+            }
+            document.getElementById("contentBox").innerHTML = "Loading...";
+
+            xmlHttp.open("GET", "http://ec2-18-219-205-255.us-east-2.compute.amazonaws.com/CS2830/classInfo.php?content=officeHours&format=xml&day=monday", true);
+
+            xmlHttp.send();
+            }       
+            function tuesday() {
+
+                var xmlHttp = new XMLHttpRequest();
+
+                xmlHttp.onload = function() {
+                    if (xmlHttp.status == 200) {
+
+                        elemObj = document.getElementById('loader');
+                        elemObj.innerHTML = xmlHttp.responseText;
+
+                        var response = xmlHttp.responseText;
+                    }
+                };
+               document.getElementById("contentBox").innerHTML = "Loading...";
+
+
+            xmlHttp.open("GET", "http://ec2-18-219-205-255.us-east-2.compute.amazonaws.com/CS2830/classInfo.php?content=officeHours&format=xml&day=tuesday", true);
+
+            xmlHttp.send();
+        }
+            function wednesday() {
+
+                var xmlHttp = new XMLHttpRequest();
+
+                xmlHttp.onload = function() {
+                    if (xmlHttp.status == 200) {
+
+                        elemObj = document.getElementById('loader');
+                        elemObj.innerHTML = xmlHttp.responseText;
+
+                        var response = xmlHttp.responseText;
+                    }
+                };
+               document.getElementById("contentBox").innerHTML = "Loading...";
+
+
+            xmlHttp.open("GET", "http://ec2-18-219-205-255.us-east-2.compute.amazonaws.com/CS2830/classInfo.php?content=officeHours&format=xml&day=wednesday", true);
+
+            xmlHttp.send();
+        }
+            function thursday() {
+
+                var xmlHttp = new XMLHttpRequest();
+
+                xmlHttp.onload = function() {
+                    if (xmlHttp.status == 200) {
+
+                        elemObj = document.getElementById('loader');
+                        elemObj.innerHTML = xmlHttp.responseText;
+
+
+                        var response = xmlHttp.responseText;
+                    }
+                };
+               document.getElementById("contentBox").innerHTML = "Loading...";
+
+            xmlHttp.open("GET", "http://ec2-18-219-205-255.us-east-2.compute.amazonaws.com/CS2830/classInfo.php?content=officeHours&format=xml&day=thursday", true);
+
+            xmlHttp.send();        
+            }
+            
+            function friday(){
+
+                var xmlHttp = new XMLHttpRequest();
+
+                xmlHttp.onload = function() {
+                    if (xmlHttp.status == 200) {
+
+                        elemObj = document.getElementById('loader');
+                        elemObj.innerHTML = xmlHttp.responseText;
+
+
+                        var response = xmlHttp.responseText;
+                    }
+                };
+               document.getElementById("contentBox").innerHTML = "Loading...";
+
+            xmlHttp.open("GET", "http://ec2-18-219-205-255.us-east-2.compute.amazonaws.com/CS2830/classInfo.php?content=officeHours&format=xml&day=friday", true);
+
+            xmlHttp.send();
+            }
+	</script>
+    </head>
+    <body>
+    <nav id="navStyle">
+        <a class="oed" href="index.html"> Omar Diab </a>
+        <a class="skills" href="oedkmvColumns.html">Skills </a>
+        <a class="myTable" href="oedkmvTables.html"> Tables</a>
+        <a class="projects" href="oedkmvProjects.html">Projects</a>
+    </nav>
+    <div id="mainWrapper" class="group">   
+        <h1 id="header">IT 2830 AJAX</h1>
+        <p onload="header()">This service is intended to provide information relating to CS/IT 2830</p>
+        
+    <div class="topColumns"> 
+        <h3>Current Assignment:</h3>
+        <p> Challenge 9: AJAX and Web Services is due on Friday November 8, 2019</p>
+    </div>        
+        
+    <div class="topColumns"> 
+        <h3>Next Class:</h3>
+        <p> Thursday Nov 7 2019 11:00am</p>
+    </div>
+                
+    <div class="bottomColumn">
+        <h3>Office Hour Info:</h3>
+        <div class="buttonAlign">
+            <button type="button" class="buttons" onclick="monday()">Monday</button>
+
+            <button type="button" class="buttons" onclick="tuesday()">Tuesday</button>
+
+            <button type="button" class="buttons" onclick="wednesday()">Wednesday</button>
+
+            <button type="button" class="buttons" onclick="thursday()">Thursday</button>
+
+            <button type="button" class="buttons" onclick="friday()">Friday</button>
+        </div> 
+        <div id="loader">
+        <p id="contentBox"></p>
+        </div>
+    </div>
+            
+    </div>
+    </body>
+</html>

@@ -1,0 +1,119 @@
+#navStyle
+    {
+    top: 0;
+    width: 100%;
+    position: sticky;
+    height: 60px;
+    border: 10px double;
+    border-color: black;
+    background-color: #30accf;
+    z-index: 1;
+    }
+.oed {
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+    }
+.skills{
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+    }
+.myTable{
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+    }
+.projects{
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+}
+.link{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: blue;
+}
+body{
+    background-image: url(websitebg.png);
+}
+#columWrapper {
+    border-radius: 100px; 
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+/*    z-index: -1;*/
+}
+#firstBox{
+    width: 450px;
+    background-color: silver;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5% auto 5% auto;
+    position: relative;
+    overflow: hidden;
+}
+#secondBox{
+    width: 450px;
+    background-color: silver;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5% auto 5% auto;
+    position: relative;
+    overflow: hidden;
+}
+#thirdBox{
+    width: 450px;
+    background-color: silver;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5% auto 5% auto;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    border-bottom: 10px solid blue;
+    display: block;
+}
+#hover:hover{
+    background-image: linear-gradient(dodgerblue, silver);
+    border-radius: 15%;
+    color: black;
+}

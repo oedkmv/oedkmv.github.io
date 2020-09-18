@@ -1,0 +1,228 @@
+<!--
+    Name: Omar Diab
+    Pawprint: oedkmv
+    Date: 2019-09-06
+    Challenge 2: Multi-Column Layout
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Multi-Column Layout</title>
+        <meta charset="utf-8">
+    <style>
+body{
+    background-color: antiquewhite;
+    }
+#navStyle
+    {   
+    top: 0;
+    width: 100%;
+    position: sticky;
+    margin: auto;
+    height: 60px;
+    border: 10px double;
+    border-color: black;
+    background-color: #30accf;
+    }
+.oed {
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+    }
+.skills{
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+    }
+.myTable{
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+    }
+.projects{
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+    }
+a{
+    text-decoration: none;
+        }
+#mainWrapper{
+    border: 8px outset whitesmoke; 
+    border-radius: 100px; 
+    padding: 10px; 
+    margin: 20px auto;
+    width: 1092px;
+    align-self: center;
+    background-image: linear-gradient(white, lightgray,lightblue, aqua);
+    }
+#header{
+    text-align: center;
+    }
+.leftColumn{
+    border: 8px outset whitesmoke; 
+    border-radius: 50px; 
+    padding: 18px; 
+    margin: 18px;
+    float: left;
+    width:239px;
+    height: 390px;
+    background-color: darkgrey;  
+    }
+.rowWrapper{
+    padding: 20px;
+    margin: 18px;
+    float: left;
+    width: 432px;
+    }
+.middleTop{
+    border: 8px outset whitesmoke; 
+    border-radius: 50px; 
+    padding: 20px;
+    float: left;
+    width: 376px;
+    height: 190px;
+    background-color: lawngreen;
+    }
+.middleBottom{
+    border: 10px outset whitesmoke; 
+    border-radius: 50px; 
+    padding: 20px;
+    float: left;
+    width: 376px;
+    margin-top: 20px;
+    height: 120px;
+    background-color: cornflowerblue;
+    }
+.rightColumn{
+    border: 8px outset whitesmoke; 
+    border-radius: 50px; 
+    padding: 18px; 
+    margin: 18px;
+    float: left;
+    background-color: firebrick;
+    width:169px;
+    height: 390px;
+    }
+h2, h3{
+    text-align: center;
+    }
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+#hover:hover{
+    background-image: linear-gradient(dodgerblue, silver);
+    border-radius: 15%;
+    color: black;
+}
+    </style>
+    </head>
+    <body>
+    <nav id="navStyle">
+        <a class="oed" id="hover" href="index.html"> Omar Diab </a>
+        <a class="skills" id="hover" href="oedkmvColumns.html">Skills </a>
+        <a class="myTable" id="hover" href="oedkmvTables.html"> Tables</a>
+        <a class="projects" id="hover" href="oedkmvProjects.html">Projects</a>
+    </nav>
+    
+        <!-- Main wrapper. This div should wrap all columns, row wrapper, and title header -->
+        <div id="mainWrapper" class="group">   
+        <h2 id="header">Skills</h2> 
+         
+            <!-- Left Column -->
+            <!-- Put left column physical width calculations here: 
+            physical width:
+            36px->padding
+            36px->margin
+            16px->border
+            239px->content
+            ______________
+            327px
+            -->
+        <div class="leftColumn">
+            <h3>Languages</h3>
+            <ol>
+                <li>Python</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>C#</li>
+                <li>HTML</li>
+                <li>PHP</li>
+            </ol>
+        </div>
+            
+            <!-- Row Wrapper. This div will contain two rows -->
+            <!--Put middle column physical width calculations here:
+            
+        physical width: 
+          36px->padding 
+          36px->margin
+          16px->border
+          410px->content      
+          _______________
+            498px
+
+            -->
+        <div class="rowWrapper">
+    <div class="middleTop"> 
+        <h3>CourseWork</h3>
+        <ol>
+        <li> DataBase </li>
+        <li> Web Development </li>
+        <li> Python Introduction</li>
+        <li> C# Introduction </li>
+        <li> Netoworking </li>
+        <li> Statitstics</li>
+        </ol>
+        </div>
+                
+    <div class="middleBottom">
+        <h3> Other </h3>
+        <ol>
+        <li> Participate in Hackathon </li>
+        <li> Part of MSO group and CS group</li>
+        <li> Dean list every semester </li>
+        <li> In the Honor Society</li>
+        </ol>
+        </div>
+            
+            <!-- Right Column -->
+            <!--Put right column physical width calculations here: 
+            Physical Width:
+          36px->padding 
+          36px->margin
+          16px->border
+          169px->content      
+          _____________
+            258px
+
+            -->
+        </div>
+            <div class="rightColumn">
+                <h3>Technliogies</h3>
+            <ol>
+         <li> Git </li>
+        <li> SQL</li>
+        <li> Intelli J</li>
+        <li> MyEclipse</li>
+                </ol>
+        
+        </div>
+        </div>
+        <p> Last Update On: 2019-09-06</p>
+    </body>
+</html>

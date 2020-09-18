@@ -1,0 +1,119 @@
+#navStyle
+    {
+    top: 0;
+    width: 100%;
+    position: sticky;
+    height: 60px;
+    border: 10px double;
+    border-color: black;
+    background-color: #30accf;
+    z-index: 1;
+    }
+.oed {
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+    }
+.skills{
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+    }
+.myTable{
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+    }
+.projects{
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+}
+body{
+    background-image: url(websitebg.png);
+}
+a{
+    text-decoration: none;
+}
+#wrapper{
+    margin:auto;
+    border-radius: 5%;
+    border:5px solid black;
+    column-count: 2;
+    width: 90%;
+    height:600px;
+    text-align: center;
+}
+textarea{
+    border:2px solid slategray;
+    margin: 0px 0px 0px 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px slategray;
+    width: 250px;
+    height: 250px;
+    display:block;
+} 
+textarea:focus{
+    box-shadow:3px 3px 10px darkred;
+}
+#preview{
+    border:2px solid slategrey;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:3px 3px 10px slategray;
+    margin: 30px 20px 0px 0px;
+    width: 260px;
+    height: 508px;
+    float: right;
+    display: inline-block;
+}
+#preview:focus{
+    box-shadow:0px 0px 8px darkred;
+}
+#align{
+    color: crimson;
+    text-align: center;
+    align-content: center;
+}
+#align2{
+    color: crimson;
+    text-align: center;
+    align-content: center;
+}
+.block{
+    break-after: column;
+}
+.button{          
+    background-color: slategray;
+    margin: 5px;
+    border: 2px solid black;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 8px;         
+}
+.button:hover{
+    background-color: blue;
+}
+#buton{
+    text-align: center;
+}
+#textCSS{
+    margin-top: 30px;
+}
+#hover:hover{
+    background-image: linear-gradient(dodgerblue, silver);
+    border-radius: 15%;
+    color: black;
+}

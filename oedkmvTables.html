@@ -1,0 +1,147 @@
+<!--
+    Name: Omar Diab
+    Pawprint: oedkmv
+    Date: 2019-09-15
+    Challenge 2: Tables
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tables</title>
+        <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="tables.css">
+    </head>
+    <body>
+        
+    <nav id="navStyle">
+        <a class="oed" id="hover" href="index.html"> Omar Diab </a>
+        <a class="skills" id="hover" href="oedkmvColumns.html">Skills </a>
+        <a class="myTable" id="hover" href="oedkmvTables.html"> Tables</a>
+        <a class="projects" id="hover" href="oedkmvProjects.html">Projects</a>
+    </nav>
+          
+<table id="tablec">
+  <tr>
+      <th class="first" colspan="5">University of Missouri - Columbia</th>
+      <th class="mizzou" colspan="3"><img class="size" src="mizzou2.png" alt="Mizzou Icon"></th>
+  </tr>
+    
+    <tr>
+    <th colspan="8" class="second"> Classes Taken</th>
+  </tr>
+    
+    <tr>
+    <th colspan="8" class="third">Fall Semester</th>
+  </tr>
+    
+    <tr class="info">
+    <td>Professor</td>
+    <td>Class Number</td>
+    <td>Class Name</td>
+    <td colspan="2">Description</td>
+    <td colspan="2">Assignment Grades</td>
+    <td>Projects</td>
+  </tr>
+
+  <tr class="odd">
+      <td rowspan="5"><a href="#openModal"><img class="wergeles" src="NickWergeles.jpg" alt="WergelesPic" ></a>
+       <div id="openModal" class="modalDialog">
+            <div><a href="#close" title="Close" class="close">X</a>
+               <h2>Wergeles</h2>
+                <iframe class = "video" src= "https://www.youtube.com/embed/Xqz4fgUSGww"></iframe>
+            </div>
+        </div> 
+      </td>
+    <td rowspan="5">CMP_SC 2830</td>
+    <td rowspan="5">Web Application Developement 1</td>
+    <td  rowspan="5" colspan="2">This course focuses on the development of web pages and web applications using
+the following strategies: HTML, CSS, JavaScript, jQuery, AJAX, PHP, and SQL</td>
+    <td class="grades"></td>
+    <td class="grades"></td>
+    <td rowspan="5"><ul>
+        <li> Creating a Portfolio</li>
+        <li> Creating Columns</li>
+        <li> Creating Tables</li>
+        </ul></td>
+  </tr>
+    
+<tr class="grades">
+    <td>CH1</td>
+    <td>100</td>
+  </tr>
+    <tr class="grades">
+    <td>CH2</td>
+    <td> 100</td>
+  </tr>
+    <tr class="badGrade">
+    <td> CH3</td>
+    <td>?</td>
+  </tr>
+    <tr class="grades">
+    <td>Ch4</td>
+    <td>?</td>
+  </tr>
+    
+  <tr class="even">
+      <td rowspan="5"><a href="#omModal"><img class="fang" src="WangFang.jpg" alt="Fang"></a>
+       <div id="omModal" class="modalDialog">
+            <div><a href="#close" title="Close" class="close">X</a>
+               <h2>NetWorking</h2>
+                <iframe class = "video" src= "https://www.youtube.com/embed/QKfk7YFILws"></iframe>
+            </div>
+        </div> 
+      </td>
+    <td rowspan="5">INFOTC 2810</td>
+    <td rowspan="5">Fundementals of Network Technology</td>
+    <td rowspan="5" colspan="2">A basic understanding of computer system organization (such as binary representations and arithmetic)</td>
+    <td class="grades"> </td>
+    <td class="grades"> </td>
+    <td rowspan="5"><ul>
+        <li> Connecting to WireShark</li>
+        <li> Cisco Packet Tracer</li>
+        <li> M3 Lab, Hubs and Switches</li>
+    </ul>
+    </td>
+  </tr>
+        <tr class="grades">
+    <td>HW1</td>
+    <td>100</td>
+  </tr>
+<tr class="badGrade">
+    <td>HW2</td>
+    <td> 70 </td>
+  </tr>
+    <tr class="grades">
+    <td> HW3</td>
+    <td>100</td>
+  </tr>
+    <tr class="grades">
+    <td>HW4</td>
+    <td>?</td>
+  </tr>
+    
+ </table>
+<div id= "MainWrapper" class = "clear">
+    <img src= "NickWergeles.jpg" alt = "Wergeles">
+ 
+        
+    <div id = "ColumnM"> 
+       Professor Wergeles
+        <hr>
+        <p>Office Hours|4 H</p>
+        <p id = "position">
+            Classes|3 H</p>
+    </div> 
+    <div id = "ColumnRT">
+        <p>Office Hours: Wednesdays</p>
+        <p class="textBorder">8:00am -9:00am</p>
+        <p class="textBorder">1:00pm - 4:00pm</p>
+    </div>
+        <div id="ColumnRB">
+    
+        <p>Classes: Tuesday and Thursday</p>
+        <p>11:00am-12:15am</p>
+        </div>
+        </div>
+    </body>
+</html>

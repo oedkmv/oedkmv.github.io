@@ -1,0 +1,49 @@
+<!--
+    Name: Omar Diab
+    Pawprint: oedkmv
+    Date: 2019-09-27
+    Challenge 6: Code Editor
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Code Editor</title>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" type="text/css" href="oedkmvCodeEditor.css">
+    <script src="oedkmvCodeEditor.js"></script>
+</head>
+<body>
+        
+    <nav id="navStyle">
+        <a class="oed" id="hover" href="index.html"> Omar Diab </a>
+        <a class="skills" id="hover" href="oedkmvColumns.html">Skills </a>
+        <a class="myTable" id="hover" href="oedkmvTables.html"> Tables</a>
+        <a class="projects" id="hover" href="oedkmvProjects.html">Projects</a>
+    </nav>
+
+<h1 id="align" ondblclick= "change();reset()">Omar's Code Editor</h1>
+    
+<div id="wrapper" >
+    
+    <div id="userBorder" class="block">
+        
+        <textarea id="textCSS" ondblclick= myFunction1() placeholder="CSS" ></textarea> 
+
+        <textarea id="textHTML" ondblclick= myFunction2() placeholder="HTML" ></textarea>
+    </div>
+
+    <div id="preview" class="block">
+    </div>
+
+</div> 
+            <div id="buton">
+        <button type="button" class="button" onclick="launchHTML()">HTML</button>
+
+        <button type="button" class="button" onclick="toggleCSS()">CSS</button>
+
+        <button type="button" class="button"  onclick="reset()" >Erase</button>
+    </div>
+<h2 id="align2">Omar Diab</h2>  
+</body>
+</html>

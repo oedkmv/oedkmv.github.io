@@ -1,0 +1,123 @@
+body{
+    background-image: url(websitebg.png);
+    }
+#navStyle
+    {   
+    top: 0;
+    position: sticky;
+    margin: auto;
+    height: 60px;
+    border: 10px double;
+    border-color: black;
+    background-color: #30accf;
+    }
+.oed {
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+    }
+.skills{
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+    }
+.myTable{
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+    }
+.projects{
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+    }
+a{
+    text-decoration: none;
+    }
+#mainWrapper{
+    border: 5px solid #30accf; 
+    border-radius: 50px; 
+    padding: 10px; 
+    margin: 20px auto;
+    width: 1088px;
+    background-image: url(Greywebsitebackground.png)
+    }
+#header{
+    text-align: center;
+    }
+.topColumns{
+    float: left;
+    position: relative;
+    border: 2px solid black; 
+    border-radius: 50px; 
+    margin: 20px 50px 30px 50px;
+    padding: 20px;
+    width: 400px;
+    height: 150px;
+    color: aliceblue;
+    }
+.bottomColumn{
+    float: left;
+    border: 2px solid black; 
+    border-radius: 50px;
+    margin: 20px 50px 20px 150px;
+    width: 806px;
+    height: 200px;
+    color: aliceblue;
+    }
+h2, h3, p{
+    text-align: center;
+    }
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+.buttons{
+    overflow: hidden;
+    background-color: #333;
+    color: aliceblue;
+    width: 80px;
+    height: 30px;
+}
+.buttonAlign{
+    width: 100%;
+    padding: 0;
+    float: left;
+    margin: 0px 0px 0px 200px;
+}
+#loader{
+    margin: 80px 20px 20px 60px;
+}
+.oed:hover{
+    background-image: linear-gradient(dodgerblue, silver);
+    border-radius: 15%;
+    color: black;
+}
+.skills:hover{
+    background-image: linear-gradient(dodgerblue, silver);
+    border-radius: 15%;
+    color: black;
+}
+.myTable:hover{
+    background-image: linear-gradient(dodgerblue, silver);
+    border-radius: 15%;
+    color: black;
+}
+.projects:hover{
+    background-image: linear-gradient(dodgerblue, silver);
+    border-radius: 15%;
+    color: black;
+}

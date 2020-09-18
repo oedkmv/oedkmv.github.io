@@ -1,0 +1,237 @@
+#navStyle
+{
+    top: 0;
+    width: 100%;
+    height: 5%;
+    position: sticky;
+    height: 60px;
+    border: 10px double;
+    border-color: black;
+    background-color: #30accf;
+}
+.oed {
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+}
+.skills{
+vertical-align: center;
+color: #e1e4ea;
+font-family: inherit;
+font-size: 35px;
+margin: 10px;
+float: left;
+}
+.myTable{
+vertical-align: center;
+color: #e1e4ea;
+font-family: inherit;
+font-size: 35px;
+margin: 10px;
+float: left;
+}
+.projects{
+    vertical-align: center;
+    color: #e1e4ea;
+    font-family: inherit;
+    font-size: 35px;
+    margin: 10px;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+body {
+    background-image: url("websitebg.png");
+    margin: 0;
+}
+#tablec {
+    width: 100%;
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-family: arial, helvetica, sans-serif;
+    
+}
+#tablec td:nth-child(2n+1){
+    text-align: center;
+}
+#tablec th, #tablec td{
+    border: 3px solid black;
+}
+.first{
+    background-color: gold;
+    color: whitesmoke;
+    padding: 30px;
+}
+.second{
+    color: silver;
+    background-color: dimgray;
+    padding: 15px;
+}
+.third{
+    background-color: darkgray;
+    padding: 15px;
+}
+.mizzou{
+    background-color: darkgray;
+    width: 100px;
+}
+.size{
+    width: 110px
+}
+.info{
+    background-color: antiquewhite;
+    color: maroon;
+    text-align: center;
+}
+.odd{
+    background-color: white;
+}
+.even{
+    background-color: gainsboro;
+}
+.fang{
+    height: 200px
+}
+.wergeles{
+    height: 200px
+}
+.grades{
+    background-color: gray;
+}
+.badGrade{
+    background-color: red;
+}
+#MainWrapper{
+    background-color: dimgray;
+    border: 2px solid silver; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    box-shadow: 50px 50px 50px black; 
+    width: 80%;
+    overflow: auto; 
+    margin: 20px auto; 
+    height: 340px; 
+    position: relative;        
+}
+.container{
+    width: 80%;
+    box-shadow: 2px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    align-self: center;
+}
+#MainWrapper img{
+    height: 300px;
+    border: 1px solid black; 
+    margin: 10px; 
+    float: left; 
+    width: 20%;
+}
+.clear:after{  
+        content:"";
+        display: table; 
+        clear: both; 
+}
+#ColumnM {
+    width: 40%;
+    font-family: monospace; 
+    float: left;
+    font-size: 25pt; 
+    text-align: left; 
+    margin-top: 10px; 
+    color: azure; 
+}
+#ColumnM hr{
+    float: left;
+    width: 80%; 
+    color: azure;
+}
+#ColumnRT {
+    width: 20%; 
+    font-size: 20px;
+    margin: 20px;
+    float: right;
+    font-family: monospace; 
+    color: azure; 
+    text-align: right;
+}
+#ColumnRB{
+    width: 60%;
+    font-size: 20px;
+    float: right;
+    font-family: monospace; 
+    color: azure; 
+    text-align: right; 
+}
+#ColumnR hr{
+    width: 50%; 
+    float: right;
+    color: azure;   
+}
+.textBorder{
+    border: 2px solid silver;
+}
+#position{
+    position: absolute; 
+    bottom: 0;             
+}
+.modalDialog {
+    position: fixed;
+    font-family: myFirstFont, arial;
+    color: ; 
+    font-size: 20pt; 
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    margin-top: 50px; 
+    margin-bottom: 50px;      
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 500px;
+    height: 450px; 
+    position: relative;
+    margin: 0% auto;
+    padding: 5px 20px 13px 30px;
+    background-color: dimgrey;
+    border: 10px solid mintcream;  
+}
+.close {
+    background: darkgray;
+    color: white;
+    line-height: 35px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+}
+.close:hover {
+    background: silver;
+}
+iframe{
+    height: 300px; 
+    width: 500px;
+    position: center;
+}
+#hover:hover{
+    background-image: linear-gradient(dodgerblue, silver);
+    border-radius: 15%;
+    color: black;
+}
